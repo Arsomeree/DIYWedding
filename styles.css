@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+body {
+  background-color: #906c46;
+  }
+/* Image and title */
+body, html {
+    height: 100%;
+  }
+
+  .center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+
+/* Jumbo first for landing and jumbo second for other pages */
+.jumbotron-first {
+  background-image: url('flowers.jpg');
+    background-color: #906c46;
+  position: relative;
+  background-size: cover;
+  height: 80%;
+  background-repeat: no-repeat;
+  font-size: 5vw;
+  color: #DCDCDC;
+  font-family: 'Special Elite', cursive;
+  }
+
+.jumbotron-second {
+  background-image: url('flowers.jpg');
+  background-size: 100%;
+  max-width: 100%;
+  background-repeat: no-repeat;
+  font-size: 5vw;
+  color: #DCDCDC;
+  font-family: 'Special Elite', cursive;
+  }
+
+/* Navigation */
+  .navbar {
+   min-height: 60px; font-size: 2vw;
+  }
+
+/*Text options */
+      h1 {
+        color: #DCDCDC;
+        margin-left: 0px;
+        font-size: 45px;
+        font-family: 'Special Elite', cursive;
+      }
+
+      h2 {
+        color: #DCDCDC;
+        margin-left: 0px;
+        font-size:25px;
+        font-family: 'Special Elite', cursive;
+      }
+
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5vmin;
+      }
+
+/* Social Media */
+    .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 50px;
+      text-align: center;
+      text-decoration: none;
+      }
+      .fa:hover {
+      opacity: 0.7
+      }
+    .fa-facebook {
+      color: #DCDCDC;
+      }
+      .fa-twitter {
+      color: #DCDCDC;
+      }
+      .fa-instagram {
+      color: #DCDCDC;
+      }
+      .container {
+        position: relative;
+        display: inline-block;
+        padding: 3px 3px 3px 3px;
+        -webkit-filter: brightness(50%) grayscale(40%);
+        filter: brightness(50%) grayscale(40%);
+        transition: all .3s linear;
+        -moz-transition: all .3s linear;
+        -webkit-transition: all .3s linear;
+        -ms-transition: all .3s linear;
+        -o-transition: all .3s linear;
+        box-sizing: border-box;
+    }
+
+    .container:hover {
+        position: relative;
+        -webkit-filter: brightness(100%) grayscale(0%);
+        filter: brightness(100%) grayscale(0%);
+      }
+
+      
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 500px) {
+        .column {
+          width: 100%;
+        }
+    }
